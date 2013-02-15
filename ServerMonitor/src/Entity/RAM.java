@@ -2,27 +2,27 @@ package Entity;
 
 public class RAM {
 	String description;
-	// Speicherplatz in GB!
-	double free, size;
+	// Speicherplatz in MB!
+	double used, total;
 	
 	public RAM(String description) {
 		this.description = description;
 	}
 
-	public double getFree() {
-		return free;
+	public double getUsed() {
+		return used;
 	}
 
-	public void setFree(double free) {
-		this.free = free;
+	public void setUsed(double used) {
+		this.used = used;
 	}
 
-	public double getSize() {
-		return size;
+	public double getTotal() {
+		return total;
 	}
 
-	public void setSize(double size) {
-		this.size = size;
+	public void setTotal(double total) {
+		this.total = total;
 	}
 	
 	

@@ -12,7 +12,7 @@ public class main {
 		Util util = new Util();
 		
 		util.addHDD("/dev/sda1");
-		DiskFree test = new DiskFree(util);
+		MemFree test = new MemFree(util);
 		test.exec();
 		
 		
